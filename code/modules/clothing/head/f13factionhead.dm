@@ -412,6 +412,7 @@ obj/item/clothing/head/helmet/f13/enclave/usmcriot
 	desc = "A metal helmet with ballistic visor and a plume, denoting veteran Decanus status."
 	icon_state = "legion-decvet"
 	item_state = "legion-decvet"
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	actions_types = list(/datum/action/item_action/toggle)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2)
 	armor = ARMOR_VALUE_MEDIUM
