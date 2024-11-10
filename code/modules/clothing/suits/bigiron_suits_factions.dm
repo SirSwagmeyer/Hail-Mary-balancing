@@ -281,6 +281,12 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 	icon_state = "legion-explorercustom"
 	item_state = "legion-explorercustom"
 
+/obj/item/clothing/suit/armor/heavy/salvaged_pa/t45b/legion
+	name = "legion heavy armor"
+	desc = "It's a set of standard legion armor strengthened using numerous parts taken from a suit of power armor, sacrificing speed and bullet protection for greater protection against laser-based weaponary."
+	icon_state = "legion-heavy"
+	item_state = "legion-heavy"
+
 //////////////
 //	 NCR	//
 //////////////
