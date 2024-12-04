@@ -1563,12 +1563,15 @@
 	lootdoubles = TRUE
 
 	loot = list(
-				/obj/item/ammo_box/magazine/m9mm,
+				/obj/item/ammo_box/c10mm,
 				/obj/item/ammo_box/shotgun/buck,
 				/obj/item/ammo_box/shotgun/slug,
 //RIP				/obj/item/ammo_box/loader/c38,
 				/obj/item/ammo_box/l10mm,
-				/obj/item/ammo_box/magazine/m556/rifle/small
+				/obj/item/ammo_box/magazine/m556/rifle/small,
+				/obj/item/ammo_box/c45,
+				/obj/item/ammo_box/a308,
+				/obj/item/ammo_box/a3006,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2
@@ -1586,7 +1589,9 @@
 				/obj/item/ammo_box/m44,
 				/obj/item/ammo_box/tube/a357,
 				/obj/item/ammo_box/a357,
-				/obj/item/ammo_box/magazine/m556/rifle/small
+				/obj/item/ammo_box/a556,
+				/obj/item/ammo_box/magazine/garand3006,
+				/obj/item/ammo_box/c4570/ratshot,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2/Initialize(mapload) //on mapload, pick how many shit to spawn
@@ -1598,15 +1603,20 @@
 	lootdoubles = TRUE
 
 	loot = list(
-				/obj/item/ammo_box/shotgun/buck,
+				/obj/item/ammo_box/shotgun/trainshot,
 				/obj/item/ammo_box/magazine/uzim9mm,
 				/obj/item/ammo_box/l10mm,
 				/obj/item/ammo_box/magazine/greasegun,
-				/obj/item/ammo_box/needle,
+				/obj/item/ammo_box/m473,
 				/obj/item/ammo_box/magazine/tommygunm45,
 				/obj/item/ammo_box/tube/m44,
 				/obj/item/ammo_box/magazine/m10mm/adv/ext,
-				/obj/item/stock_parts/cell/ammo/ec
+				/obj/item/stock_parts/cell/ammo/ec,
+				/obj/item/ammo_box/tube/c4570,
+				/obj/item/ammo_box/a357box/ratshot,
+				/obj/item/ammo_box/a357box/ricochet,
+				/obj/item/ammo_box/a45lcbox,
+				/obj/item/ammo_box/a3006box,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3/Initialize(mapload) //on mapload, pick how many shit to spawn
@@ -1622,13 +1632,15 @@
 				/obj/item/ammo_box/m44,
 				/obj/item/ammo_box/magazine/m556/rifle,
 				/obj/item/ammo_box/c4570,
-				/obj/item/ammo_box/tube/c4570,
+				/obj/item/ammo_box/c4570box,
 				/obj/item/ammo_box/a50MG,
 				/obj/item/ammo_box/a308box/soviet,
 				/obj/item/ammo_box/magazine/m308/ext,
 				/obj/item/stock_parts/cell/ammo/mfc,
 				/obj/item/ammo_casing/caseless/rocket,
-				/obj/item/ammo_box/a40mm
+				/obj/item/ammo_box/a40mm,
+				/obj/item/ammo_box/m14mm,
+				/obj/item/ammo_box/shotgun/magnum,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4/Initialize(mapload) //on mapload, pick how many shit to spawn
@@ -1641,14 +1653,15 @@
 
 	loot = list(
 				/obj/item/ammo_box/a50MG,
-				/obj/item/ammo_box/a50MG/incendiary,
+				/obj/item/ammo_box/a50MG/explosive,
 				/obj/item/ammo_box/magazine/m556/rifle/extended,
-				/obj/item/ammo_box/magazine/m308/ext,
+				/obj/item/ammo_box/c4570/explosive,
 				/obj/item/ammo_box/magazine/d12g,
 				/obj/item/ammo_casing/caseless/rocket/big,
-				/obj/item/ammo_casing/caseless/rocket/incendiary = 10,
+				/obj/item/ammo_casing/caseless/rocket/hedp = 10,
 				/obj/item/ammo_casing/caseless/rocket/chem = 3,
-				/obj/item/ammo_box/a40mm
+				/obj/item/ammo_box/m473/explosive,
+				/obj/item/ammo_box/a40mm/hedp,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5/Initialize(mapload) //on mapload, pick how many shit to spawn
